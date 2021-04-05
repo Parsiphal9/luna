@@ -1,0 +1,62 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+}
+header{
+  margin:auto;
+  margin-top: 20px;
+  width: 800px;
+  height: 80px;
+  background-color: red;
+}
+div.contenedor{
+  width:200px;
+  height:80px;
+  color:white;
+  float:left;
+}
+div#atras{
+  background-color: rgb(70,118,162);
+}
+div#hoy{
+  background-color: rgb(70,130,180);
+}
+div#adelante{
+  background-color: rgb(27,54,71);
+}
+input.fechaSelect{
+  font-size: 19px;
+  display: block;
+  margin: auto;
+  height: 76px;
+  width: 195px;
+}
+p.texto{
+text-align: center;
+margin-top: 30px;
+}
+canvas{
+padding: 0px;
+padding-top: 40px;
+margin: auto;
+display: block;
+}
+
+@media (device-aspect-ratio: 9/16){
+  canvas{
+    margin: 0;
+    height: 100vw;
+  }
+}
+@media (orientation: portrait){
+  canvas{
+    margin: 0;
+    height: 100vw;
+  }
+}
+
+
+body{
+    background-image: url("stars-in-the-sky.png");
+  }

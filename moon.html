@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <metac charset="UTF-8">
+    <title>Moonphases</title>
+    <link rel="stylesheet" href="moon.css">
+  </head>
+    <body>
+      <header>
+          <div class="contenedor" id="atras" onclick=restarDia() > <p class="texto">Atrás</p> </div>
+          <div class="contenedor" id="hoy" onclick=fijarhoy() > <p class="texto">Hoy</p> </div>
+          <div class="contenedor" id="adelante" onclick=sumarDia()> <p class="texto">Adelante</p> </div>
+          <div class="contenedor" id="fecha"> <input class="fechaSelect" type="date" id="selector"> </div>
+      </header>
+          <canvas id="canvas" width="480" height="480"></canvas>
+          <script src=moonv2.js></script>
+          <!-- <script src=moon.js></script> -->
+        </body>
+</html>
